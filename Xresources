@@ -1,0 +1,43 @@
+*background 			: #160712
+*foreground 			: #cbd1be
+! black
+*color0  			: #160712
+*color8  			: #26201d
+! red
+*color1  			: #7a1338
+*color9  			: #834664
+! green
+*color2  			: #5d7643
+*color10 			: #91a47a
+! yellow
+*color3  			: #a93130
+*color11 			: #e0a46e
+! blue
+*color4  			: #3870be
+*color12 			: #579fb4
+! magenta
+*color5  			: #593084
+*color13 			: #917692
+! cyan
+*color6 			: #8f9389
+*color14  			: #52534c
+! white
+*color7  			: #cbd1be
+*color15 			: #8f9389
+
+URxvt.font: xft:Monoid:Bold:size=14
+URxvt.letterSpace: -1
+URxvt.scrollBar: False
+
+URxvt.perl-ext-common: default,matcher,tabbed
+URxvt.url-launcher: /usr/bin/xdg-open
+URxvt.matcher.button: 1
+
+rofi.color-window: #160712, #91a47a, #91a47a
+rofi.color-normal: #160712, #917692, #160712, #91a47a, #160712
+rofi.color-active: #160712, #52534c, #160712, #52534c, #160712
+rofi.color-urgent: #160712, #91a47a, #160712, #91a47a, #160712
+rofi.font: Monoid Bold 14
+
+Xcursor.theme: Bibata_Spirit
+Xcursor.size: 64
